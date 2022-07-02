@@ -7,7 +7,11 @@
 <br>
 <hr> 
 
+<<<<<<< HEAD
 <div style="text-align:center">
+=======
+<div align="center">
+>>>>>>> 2e53da43719873a6af1072d33283759f5d60d64f
 
 ```
 For testing purposes only :P
