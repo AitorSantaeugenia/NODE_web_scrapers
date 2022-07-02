@@ -28,7 +28,9 @@ or
 node index.js
 ```
 
-3. Open [http://localhost:8000/results](http://localhost:8000/results) with your browser to see the results of the scrape in your terminal.
+## Go to localhost/scraper
+
+3. Open [http://localhost:3000/scraper](http://localhost:3000/scraper) with your browser to see the results of the scrape in your terminal.
 
 ## Check the data.seed.js created
 

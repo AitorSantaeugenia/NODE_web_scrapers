@@ -13,7 +13,7 @@ const cors = require("cors");
 const fs = require("fs");
 
 //PORT
-const PORT = 8000;
+const PORT = 3000;
 
 app.use(cors());
 
