@@ -42,7 +42,7 @@ node index.js
 ![Web data scrapped](https://user-images.githubusercontent.com/14861253/177007928-66aa675b-df9c-40b7-848f-263f7f8444cd.png)
 
 
-<div style="text-align:center">
+<div align="center">
 
 ```
 For testing purposes only :P
