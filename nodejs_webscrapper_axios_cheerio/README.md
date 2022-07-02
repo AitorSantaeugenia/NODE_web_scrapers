@@ -36,9 +36,9 @@ node index.js
 # Results
 - Actual site <br>
 ![Web data scrapped](https://user-images.githubusercontent.com/14861253/177007945-8d224eb5-f966-4c3b-bd66-a28b80d23b97.png)
-- Data scrapped from the site
 <br>
 
+- Data scrapped from the site<br>
 ![Web data scrapped](https://user-images.githubusercontent.com/14861253/177007928-66aa675b-df9c-40b7-848f-263f7f8444cd.png)
 
 
