@@ -1,5 +1,5 @@
 # Node webscrapper with axios and cheerio
-- https://github.com/AitorSantaeugenia/NODE_web_scrappers/tree/master/nodejs_webscrapper_axios_cheerio
+- https://github.com/AitorSantaeugenia/NODE_web_scrapers/tree/master/nodejs_webscraper_axios_cheerio
 
 # Node webscrapper with puppeter and node schedule
 - TODO
