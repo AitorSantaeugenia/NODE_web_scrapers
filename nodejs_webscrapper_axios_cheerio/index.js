@@ -9,10 +9,12 @@ app.use(cors());
 const url = "https://www.futbolenlatele.com/";
 
 app.get("/", function (req, res) {
-  res.json("Webscraping https://www.futbolenlatele.com/");
+  res.json(
+    "Webscraping https://www.futbolenlatele.com/ || add localhost:3000/scrapper to check results"
+  );
 });
 
-app.get("/results", (req, res) => {
+app.get("/scrapper", (req, res) => {
   axios(url)
     .then((response) => {
       const html = response.data;
