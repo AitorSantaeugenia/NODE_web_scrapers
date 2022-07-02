@@ -7,7 +7,7 @@
 <br>
 <hr> 
 
-<div style="text-align:center">
+<div align="center">
 
 ```
 For testing purposes only :P
