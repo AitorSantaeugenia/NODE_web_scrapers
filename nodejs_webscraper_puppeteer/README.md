@@ -12,6 +12,16 @@
 npm i
 ```
 
+<hr>
+
+### Puppeteer
+- https://github.com/puppeteer/puppeteer#getting-started
+- https://github.com/puppeteer/puppeteer/blob/v2.1.1/docs/api.md
+- https://www.npmjs.com/package/puppeteer
+
+
+<hr>
+
 ## Run the scraper
 
 2. Run this command
@@ -30,7 +40,6 @@ node index.js
 3. After the webpage is scraped, it creates a file ./data/data.seed.json with the data scraped
 
 <br>
-<hr> 
 
 # Results
 - Actual site <br>
