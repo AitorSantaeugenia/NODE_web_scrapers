@@ -6,8 +6,8 @@
 ### Node webscraper with puppeteer
 - https://github.com/AitorSantaeugenia/NODE_web_scrapers/tree/master/nodejs_webscraper_puppeteer
 
-### Node webscraper with puppeteer and node schedule (or npm cron)
-- TODO
+### Node webscraper with puppeteer, nodemailer & node schedule
+- https://github.com/AitorSantaeugenia/NODE_web_scrapers/tree/master/nodejs_webscraper_puppeteer_with_node_scheduler
 
 <br>
 <hr> 

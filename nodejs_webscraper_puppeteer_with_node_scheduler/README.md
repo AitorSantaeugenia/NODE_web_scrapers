@@ -1,21 +1,5 @@
 # Node webscraper with puppeteer, nodemailer & node-schedule
 
-## Install dependencies
-```bash
-  "dependencies": {
-    "node-schedule": "^2.1.0",
-    "nodemailer": "^6.7.6",
-    "puppeteer": "^15.3.0"
-  }
-```
-
-1. Run this command
-```bash
-npm i
-```
-
-<hr>
-
 ### Puppeteer
 - https://github.com/puppeteer/puppeteer#getting-started
 - https://github.com/puppeteer/puppeteer/blob/v2.1.1/docs/api.md
@@ -30,6 +14,20 @@ npm i
 - https://www.npmjs.com/package/node-schedule
 
 <hr>
+
+# Install dependencies
+```bash
+  "dependencies": {
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.6",
+    "puppeteer": "^15.3.0"
+  }
+```
+
+1. Run this command
+```bash
+npm i
+```
 
 ## A note about Nodemailer and third-party apps (less secured apps)
 
@@ -46,7 +44,9 @@ So now - CREDIT TO: https://stackoverflow.com/questions/72530276/nodemailergoogl
 */
 ```
 
-## Run the scheduler
+<hr>
+
+# Run the scheduler
 
 2. Run this command (at X time, will run the scraper)
 
@@ -59,18 +59,35 @@ or
 node utils/schedule.js
 ```
 
-## Check the data.seed.json created
+<hr>
+
+# Check the data.seed.json created
 
 3. After the webpage is scraped, it creates a file ./data/data.seed.json with the data scraped
 
-## Check your email
+<hr>
 
-4. After the webpage is scraped, it sends you a email with the results too
+# Check your email
+
+4. After the webpage is scraped, it sends you a email with the results too (or the error if there was one)
+
+<div align="center">
+
+![Email sent](https://user-images.githubusercontent.com/14861253/177057888-437c7ac0-739c-4170-8dc1-032329822ba1.png)
+
+</div>
+
+<div align="center">
+
+![Email sent](https://user-images.githubusercontent.com/14861253/177058009-942e00cc-f44d-4ff8-9dca-625ace13f188.png)
+
+</div>
 
 ```
 You need to config that in the /utils/email.js file, line #2 (your-gmail) && line #8 (your-app-password)
 ```
 
+<hr>
 <br>
 
 # Results
@@ -78,8 +95,8 @@ You need to config that in the /utils/email.js file, line #2 (your-gmail) && lin
 ![Web data scraped](https://user-images.githubusercontent.com/14861253/177007945-8d224eb5-f966-4c3b-bd66-a28b80d23b97.png)
 <br>
 
-- Data scraped from the site and saved in a JSON<br>
-![Web data scraped in a JSON](https://user-images.githubusercontent.com/14861253/177024167-45079d94-b099-47ba-ad6e-045ead2792aa.png)
+- Process<br>
+![Web data scraped with a scheduler](https://user-images.githubusercontent.com/14861253/177058165-87d81492-de0b-4ab0-a1d6-06c3e5fb20fe.gif)
 
 
 <div align="center">
