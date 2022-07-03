@@ -1,5 +1,4 @@
 ## Scraping tests of this [website](https://www.futbolenlatele.com/) with cheerio & puppeteer
-<br>
 
 ### Node webscraper with axios and cheerio
 - https://github.com/AitorSantaeugenia/NODE_web_scrapers/tree/master/nodejs_webscraper_axios_cheerio
