@@ -47,6 +47,9 @@ node index.js
 - Data scraped from the site<br>
 ![Web data scraped](https://user-images.githubusercontent.com/14861253/177007928-66aa675b-df9c-40b7-848f-263f7f8444cd.png)
 
+- data.seed.js created after scraping<br>
+![data.seed.js](https://user-images.githubusercontent.com/14861253/177024205-e2e8cd02-75a0-40e4-81c9-71cd9a87a461.png)
+
 
 <div align="center">
 

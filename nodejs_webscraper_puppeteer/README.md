@@ -12,7 +12,7 @@
 npm i
 ```
 
-## Run the server
+## Run the scraper
 
 2. Run this command
 
@@ -25,7 +25,7 @@ or
 node index.js
 ```
 
-## Check the data.seed.js created
+## Check the data.seed.json created
 
 3. After the webpage is scraped, it creates a file ./data/data.seed.json with the data scraped
 
@@ -37,8 +37,8 @@ node index.js
 ![Web data scraped](https://user-images.githubusercontent.com/14861253/177007945-8d224eb5-f966-4c3b-bd66-a28b80d23b97.png)
 <br>
 
-- Data scraped from the site<br>
-![Web data scraped](https://user-images.githubusercontent.com/14861253/177007928-66aa675b-df9c-40b7-848f-263f7f8444cd.png)
+- Data scraped from the site and saved in a JSON<br>
+![Web data scraped in a JSON](https://user-images.githubusercontent.com/14861253/177024167-45079d94-b099-47ba-ad6e-045ead2792aa.png)
 
 
 <div align="center">
