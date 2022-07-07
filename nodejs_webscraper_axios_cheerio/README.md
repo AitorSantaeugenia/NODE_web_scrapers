@@ -71,7 +71,7 @@ node index.js
 <div align="center">
 
 ```
-For testing purposes only :P
+For testing purposes only  :P
 ```
 
 </div>
