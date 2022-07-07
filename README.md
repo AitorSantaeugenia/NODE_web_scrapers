@@ -15,7 +15,7 @@
 <div align="center">
 
 ```
-For testing purposes only :P :P
+For testing purposes only :P
 ```
 
 </div>
