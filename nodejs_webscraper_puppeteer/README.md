@@ -35,10 +35,10 @@ El scraper genera un archivo `data.seed.json` en la carpeta `./data/` que contie
 
 ### Comparación de Resultados
 
-**Sitio Web Original:**
+**Sitio Web Original:** <br>
 ![Web data scraped](https://user-images.githubusercontent.com/14861253/177007945-8d224eb5-f966-4c3b-bd66-a28b80d23b97.png)
 
-**Datos Extraídos (JSON):**
+**Datos Extraídos (JSON):** <br>
 ![Web data scraped in a JSON](https://user-images.githubusercontent.com/14861253/177024167-45079d94-b099-47ba-ad6e-045ead2792aa.png)
 
 ## 📚 Recursos Adicionales
