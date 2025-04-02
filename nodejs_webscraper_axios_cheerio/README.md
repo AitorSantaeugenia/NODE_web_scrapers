@@ -1,77 +1,59 @@
-# Node webscraper with axios and cheerio
+# Web Scraper con Node.js, Axios y Cheerio
 
-## Install dependencies
+Este proyecto implementa un web scraper para extraer información de [futbolenlatele.com](https://www.futbolenlatele.com/) utilizando tecnologías modernas de Node.js.
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Node.js**: Entorno de ejecución de JavaScript
+- **Express.js**: Framework web para Node.js
+- **Axios**: Cliente HTTP para realizar peticiones
+- **Cheerio**: Parser de HTML para extraer datos
+- **CORS**: Middleware para habilitar Cross-Origin Resource Sharing
+
+## 📦 Instalación
+
+1. Clona el repositorio
+2. Instala las dependencias:
 ```bash
-  "dependencies": {
-    "axios": "^0.21.4",
-    "cheerio": "^1.0.0-rc.10",
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
-  }
-```
-1. Run this command
-```bash
-npm i
+npm install
 ```
 
-<hr>
+## 🚀 Uso
 
-### Express
-- https://expressjs.com/
-- https://www.npmjs.com/package/express
-
-### Axios
-- https://www.npmjs.com/package/axios
-- https://axios-http.com/docs/intro
-
-### Cheerio
-- https://cheerio.js.org/
-- https://www.npmjs.com/package/cheerio
-
-### Cors
-- https://www.npmjs.com/package/cors
-
-<hr>
-
-## Run the server
-
-2. Run this command
-
+1. Inicia el servidor:
 ```bash
 npm start
-```
-or
-
-```bash
+# o
 node index.js
 ```
 
-## Go to localhost/scraper
+2. Abre [http://localhost:3000/scraper](http://localhost:3000/scraper) en tu navegador
+3. Los resultados del scraping se mostrarán en la terminal
 
-3. Open [http://localhost:3000/scraper](http://localhost:3000/scraper) with your browser to see the results of the scrape in your terminal.
+## 📊 Resultados
 
-## Check the data.seed.js created
+El scraper genera un archivo `data.seed.js` que contiene los datos extraídos, que puede ser utilizado como una base de datos local.
 
-4. After the webpage is scraped, it creates a file data.seed.js with the data scraped, so we can use it as a local DB
+### Comparación de Resultados
 
-<br>
-<hr> 
-
-# Results
-- Actual site <br>
+**Sitio Web Original:**
 ![Web data scraped](https://user-images.githubusercontent.com/14861253/177007945-8d224eb5-f966-4c3b-bd66-a28b80d23b97.png)
 
-- Data scraped from the site<br>
+**Datos Extraídos:**
 ![Web data scraped](https://user-images.githubusercontent.com/14861253/177007928-66aa675b-df9c-40b7-848f-263f7f8444cd.png)
 
-- data.seed.js created after scraping<br>
+**Archivo data.seed.js Generado:**
 ![data.seed.js](https://user-images.githubusercontent.com/14861253/177024205-e2e8cd02-75a0-40e4-81c9-71cd9a87a461.png)
 
+## 📚 Recursos Adicionales
+
+- [Documentación de Express.js](https://expressjs.com/)
+- [Documentación de Axios](https://axios-http.com/docs/intro)
+- [Documentación de Cheerio](https://cheerio.js.org/)
+- [Documentación de CORS](https://www.npmjs.com/package/cors)
+
+---
 
 <div align="center">
-
-```
-For testing purposes only :P
-```
-
+  <em>Este proyecto es un ejemplo educativo de implementación de web scraping</em>
 </div>
