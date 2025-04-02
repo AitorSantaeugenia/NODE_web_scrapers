@@ -1,108 +1,69 @@
-# Node webscraper with puppeteer, nodemailer & node-schedule
+# Web Scraper Automatizado con Node.js
 
-### Puppeteer
-- https://github.com/puppeteer/puppeteer#getting-started
-- https://github.com/puppeteer/puppeteer/blob/v2.1.1/docs/api.md
-- https://www.npmjs.com/package/puppeteer
+Este proyecto implementa un web scraper avanzado para extraer información de [futbolenlatele.com](https://www.futbolenlatele.com/) con programación automática y notificaciones por correo electrónico.
 
-### Nodemailer
-- https://nodemailer.com/about/
-- https://www.npmjs.com/package/nodemailer
+## 🛠️ Tecnologías Utilizadas
 
-### Node-schedule
-- https://github.com/node-schedule/node-schedule
-- https://www.npmjs.com/package/node-schedule
+- **Node.js**: Entorno de ejecución de JavaScript
+- **Puppeteer**: Biblioteca para automatizar Chrome/Chromium
+- **Nodemailer**: Sistema de envío de correos electrónicos
+- **Node-schedule**: Programador de tareas para Node.js
 
-<hr>
+## 📦 Instalación
 
-# Install dependencies
+1. Clona el repositorio
+2. Instala las dependencias:
 ```bash
-  "dependencies": {
-    "node-schedule": "^2.1.0",
-    "nodemailer": "^6.7.6",
-    "puppeteer": "^15.3.0"
-  }
+npm install
 ```
 
-1. Run this command
-```bash
-npm i
-```
+## ⚙️ Configuración de Correo Electrónico
 
-## A note about Nodemailer and third-party apps (less secured apps)
+Para usar Nodemailer con Gmail, necesitas configurar una contraseña de aplicación:
 
-```
-Google no longer supports the use of third-party apps or devices which ask you to sign in to your Google Account using only your username and password.
+1. Ve a [Configuración de Seguridad de Google](https://myaccount.google.com/security)
+2. Activa la autenticación de dos factores (2FA)
+3. Crea una contraseña de aplicación:
+   - Ve a [Contraseñas de aplicación](https://support.google.com/mail/answer/185833?hl=en)
+   - Genera una nueva contraseña de 16 caracteres
+4. Configura las credenciales en `/utils/email.js`:
+   - Línea 2: Tu correo de Gmail
+   - Línea 8: Tu contraseña de aplicación
 
-So now - CREDIT TO: https://stackoverflow.com/questions/72530276/nodemailergoogle-disabled-the-less-secure-app-option-on-google-accounts-i-woul:
-1- https://myaccount.google.com/security
-2- Enable 2FA
-3- Create App Password for Email
-   https://support.google.com/mail/answer/185833?hl=en
-   (once you have done 2FA it appears below that option)
-4- Copy that password (16 characters) into the pass parameter in Nodemailer auth.
-*/
-```
+> **Nota**: Google ya no soporta el uso de aplicaciones menos seguras que requieran solo usuario y contraseña.
 
-<hr>
+## 🚀 Uso
 
-# Run the scheduler
-
-2. Run this command (at X time, will run the scraper)
-
+1. Inicia el programador de tareas:
 ```bash
 npm run schedule
-```
-or
-
-```bash
+# o
 node utils/schedule.js
 ```
 
-<hr>
+2. El scraper se ejecutará en los horarios programados
+3. Los resultados se guardarán en `./data/data.seed.json`
+4. Recibirás un correo electrónico con los resultados
 
-# Check the data.seed.json created
+## 📊 Resultados
 
-3. After the webpage is scraped, it creates a file ./data/data.seed.json with the data scraped
-
-<hr>
-
-# Check your email
-
-4. After the webpage is scraped, it sends you a email with the results too (or the error if there was one)
-
-<div align="center">
-
-![Email sent](https://user-images.githubusercontent.com/14861253/177057888-437c7ac0-739c-4170-8dc1-032329822ba1.png)
-
-</div>
-
-<div align="center">
-
-![Email sent](https://user-images.githubusercontent.com/14861253/177058009-942e00cc-f44d-4ff8-9dca-625ace13f188.png)
-
-</div>
-
-```
-You need to config that in the /utils/email.js file, line #2 (your-gmail) && line #8 (your-app-password)
-```
-
-<hr>
-<br>
-
-# Results
-- Actual site <br>
-![Web data scraped](https://user-images.githubusercontent.com/14861253/177007945-8d224eb5-f966-4c3b-bd66-a28b80d23b97.png)
-<br>
-
-- Process<br>
+### Proceso de Ejecución
 ![Web data scraped with a scheduler](https://user-images.githubusercontent.com/14861253/177058165-87d81492-de0b-4ab0-a1d6-06c3e5fb20fe.gif)
 
+### Ejemplo de Correo Electrónico
+![Email sent](https://user-images.githubusercontent.com/14861253/177057888-437c7ac0-739c-4170-8dc1-032329822ba1.png)
+
+### Resultados del Scraping
+![Email sent](https://user-images.githubusercontent.com/14861253/177058009-942e00cc-f44d-4ff8-9dca-625ace13f188.png)
+
+## 📚 Recursos Adicionales
+
+- [Documentación de Puppeteer](https://github.com/puppeteer/puppeteer#getting-started)
+- [Documentación de Nodemailer](https://nodemailer.com/about/)
+- [Documentación de Node-schedule](https://github.com/node-schedule/node-schedule)
+
+---
 
 <div align="center">
-
-```
-For testing purposes only :P
-```
-
+  <em>Este proyecto es un ejemplo educativo de implementación de web scraping automatizado con notificaciones</em>
 </div>
